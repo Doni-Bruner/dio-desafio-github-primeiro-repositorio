@@ -1,0 +1,26 @@
+- git init 
+//inicia o git no repositorio local
+
+- cd .. 
+//volta uma pasta
+
+- cd (nome da pasta) 
+//acessa a pasta selecionada
+
+- mkdir (nome da pasta) 
+//cria uma nova pasta
+
+- git status 
+//mostra o status atual das pastas/arquivos do repositorio local
+
+- git add . 
+//adiciona todos os arquivos/pastas untraked ou modified para stage
+
+- git commit -m "" 
+//cria o commit do repositorio e coloca uma mensagem opcional para identificar as alterações
+
+- git push origin main 
+//envia o repositorio depois de feito commit para o github
+
+- git clone (link do repositorio online)
+//clona um repositorio do guthub

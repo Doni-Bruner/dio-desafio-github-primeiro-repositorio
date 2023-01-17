@@ -1,0 +1,9 @@
+Visual Studio - somente windows e MAC
+Visual Studio Code - multiplataforma
+Rider - pago
+
+instalar VSCode
+Extensões Recomendadas:
+ - C#
+ - C# extensions "JosKreativ"
+ - VSCode Icons

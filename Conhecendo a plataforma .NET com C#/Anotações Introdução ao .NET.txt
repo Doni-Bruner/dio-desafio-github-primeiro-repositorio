@@ -1,0 +1,5 @@
+Multiplataforma
+
+linguagem de auto nivel que é traduzida por um compilador para Codigo intermediario de linguagem e executado em linguagem de maquina/baixo nivel
+
+usado visualstudio para programação

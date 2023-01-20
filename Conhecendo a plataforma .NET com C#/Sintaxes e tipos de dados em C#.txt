@@ -1,5 +1,12 @@
+CTRL + ' - abrir terminal
+
 DOTNET NEW CONSOLE - cria um novo projeto
 
 DOTNET BUILD - compila o projeto
 
+DOTNET RUN - rodar o codigo
+
 todo nome de clase deve começar com letra maiuscula, e cada nova palavra que componha o titulo deve iniciar com maiuscula
+
+seleciona + CTRL+K+C - comenta varias linhas de codigo ao mesmo tempo
+

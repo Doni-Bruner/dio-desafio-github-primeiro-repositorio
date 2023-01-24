@@ -1,0 +1,12 @@
+Operador Condicional: if / else (se, senão)
+
+duas condições para um bool : bool possivelVenda = quantidadeCompra > 0 && quantidadeEmEstoque >= quantidadeCompra;
+
+Operador OR (ou): || (pipe) "ao menos uma das condições deve ser verdadeira, nao depende das demais"
+
+Oerador AND (e): && "todos as condições devem ser verdadeiras, se tiver alguma condição falsa retorna negativa"
+
+Operador NOT (negação): ! (exclamação) "inverte a condição de um "bool", nao aceita a sua condição"
+
+
+

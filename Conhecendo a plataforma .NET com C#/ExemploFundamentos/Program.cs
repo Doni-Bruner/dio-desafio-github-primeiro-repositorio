@@ -1,16 +1,173 @@
 ﻿using ExemploFundamentos.Models;
 
-bool choveu = true;
-bool estaTarde = true;
+string opcao;
+bool exibirMenu = true;
 
-if (!choveu && !estaTarde)
+while(exibirMenu)
 {
-    Console.WriteLine("Vou pedalar!");
+    Console.WriteLine("Digite a sua opção: ");
+    Console.WriteLine("1 - Cadastrar Cliente.");
+    Console.WriteLine("2 - Buscar Cliente.");
+    Console.WriteLine("3 - Apagar Cliente.");
+    Console.WriteLine("4 - Encerrar.");
+
+    opcao = Console.ReadLine();
+
+    switch(opcao)
+    {
+        case "1":
+            Console.WriteLine("Cadastro de cliente.");
+            break;
+
+        case "2":
+            Console.WriteLine("Busca de cliente.");
+            break;
+
+        case "3":
+            Console.WriteLine("Apagar cliente.");
+            break;
+
+        case "4":
+            Console.WriteLine("Encerrar!");
+            exibirMenu = false;
+            break;
+
+        default:
+            Console.WriteLine("Opção invalida");
+            break;
+    }
 }
-else
-{
-    Console.WriteLine("Vou pedalar um outro dia!");
-}
+    Console.WriteLine("O programa encerrou!");
+
+
+
+
+
+
+
+
+
+
+
+
+
+// int soma = 0, numero = 0;
+
+// do
+// {
+//     Console.WriteLine("Digite um numero (0 para parar): ");
+//     numero = Convert.ToInt32(Console.ReadLine());
+
+//     soma += numero;
+//     Console.WriteLine($"Soma = {soma}\n");
+
+// } while(numero != 0);
+
+//     Console.WriteLine($"Total é: {soma}, \n \nPrograma finalizado!");
+
+
+
+
+
+
+
+
+
+
+
+
+
+// int numero = 5;
+// int contador = 0;
+
+// while (contador <= 10)
+// {
+//      Console.WriteLine($"{numero} X {contador} = {numero * contador}");
+//      contador++;
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+// int numero = 5;
+
+// for(int contador = 0; contador <= 10; contador++)
+// {
+//     Console.WriteLine($"{numero} X {contador} = {numero * contador}");
+// }
+
+
+
+
+
+
+
+
+
+
+
+// int numero = 10;
+
+// Console.WriteLine(numero);
+
+// Console.WriteLine("Incrementando o 10");
+// numero++;
+
+// Console.WriteLine(numero);
+
+
+
+
+
+
+
+
+
+
+
+
+//Calculadora calc = new Calculadora();
+
+// calc.Somar(10, 30);
+// calc.Subtrair(10, 50);
+// calc.Multiplicar(15, 45);
+// calc.Dividir(2, 2);
+// calc.Potencia(3, 3);
+// calc.Seno(30);
+// calc.Coseno(30);
+// calc.Tangente(30);
+//calc.RaizQuadrada(9);
+
+
+
+
+
+
+
+
+
+
+
+
+// bool choveu = true;
+// bool estaTarde = true;
+
+// if (!choveu && !estaTarde)
+// {
+//     Console.WriteLine("Vou pedalar!");
+// }
+// else
+// {
+//     Console.WriteLine("Vou pedalar um outro dia!");
+// }
 
 
 

@@ -1,20 +1,110 @@
 ﻿using ExemploFundamentos.Common.Models;
 
-List<string> listaString = new List<string>();
+//         int qt = int.Parse(Console.ReadLine());
+//         string[] v;
+//         string a, b;
+// // TODO: Crie as outras condições necessárias para a resolução do desafio:
+//         for (int i = 0; i < qt; i ++)
+//         {
+//             v = Console.ReadLine().Split();
+//             a = v[0];
+//             b = v[1];
 
-listaString.Add("SP");
-listaString.Add("BA");
-listaString.Add("MG");
+//             if (a.EndsWith(b))
+//                 Console.WriteLine("encaixa");
+//             else
+//                 Console.WriteLine("nao encaixa");
 
-Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
+//         }
 
-listaString.Add("SC");
 
-Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
+//  int quantidade = int.Parse(Console.ReadLine());
 
-listaString.Remove("MG");
+//  // TODO: Crie as outras condições necessárias para a resolução do desafio:
+//  for (int contador = 0; contador < quantidade; contador++)
+//  {
+//      string valorA = (Console.ReadLine());
+//      string valorB = (Console.ReadLine());
 
-Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
+//          bool resultado = valorA.EndsWith(valorB);
+//      if (resultado)
+//          Console.WriteLine("encaixa");
+//      else
+//          Console.WriteLine("nao encaixa");
+
+// }
+
+
+
+
+
+
+// int n = int.Parse(Console.ReadLine());
+// int count = 0;
+ 
+//         for (int i = 1; i <= n; i++) {
+//     // TODO: Crie as outras condições necessárias para a resolução do desafio:
+//     if (n % i == 0)
+//     {
+//         count++;
+//     }
+
+// }
+//          Console.WriteLine(count == 3);
+
+
+
+// int quantidade = int.Parse(Console.ReadLine());
+// string[] valorA = new string[100];
+// string[] valorB = new string[100];
+// // TODO: Crie as outras condições necessárias para a resolução do desafio:
+// for (int contador = 0; contador < quantidade; contador++)
+// {
+//     valorA[contador] = (Console.ReadLine());
+//     valorB[contador] = (Console.ReadLine());
+// }
+// for (int contador = 0; contador < quantidade; contador++)
+// {
+//         bool resultado = valorA[contador].EndsWith(valorB[contador]);
+//     if (resultado)
+//         Console.WriteLine("encaixa");
+//     else
+//         Console.WriteLine("nao encaixa");
+
+// }
+
+
+// int numero = int.Parse(Console.ReadLine());
+//         int produto = 1, soma = 0;
+//         while (numero > 0){
+//              int l = numero % 10;
+// // TODO: Crie as outras condições necessárias para a resolução do desafio:
+//              produto *= l;
+//              soma += l;
+//              numero /= 10;
+//            }
+
+//            Console.WriteLine(produto-soma);
+
+
+
+
+
+// List<string> listaString = new List<string>();
+
+// listaString.Add("SP");
+// listaString.Add("BA");
+// listaString.Add("MG");
+
+// Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
+
+// listaString.Add("SC");
+
+// Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
+
+// listaString.Remove("MG");
+
+// Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
 
 // Console.WriteLine("Percorrendo a Lista com o FOR");
 // for(int contador = 0; contador < listaString.Count; contador ++)
